@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ARS</title>
+  <meta name="title" content="ARS">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/scss.css">
+
+  <!-- 
+    - preload images
+  -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.png" width="150" height="24" alt="ARS home" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="150" height="24" alt="ARS home" class="logo-dark">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="index.html" class="navbar-link">Accuiel</a>
+          </li>
+          
+        </ul>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="Home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/bg 5.jfif')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title"></h1>
+
+            <p class="hero-text">
+              <!--Ajouter Text ici-->
+            </p>
+          </div>
+          <div class="hero-slider" data-slider>
+
+            <!--Off-->
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+                </li>
+
+              </ul>
+            </div-->
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+          <!--off end-->
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="about" aria-labelledby="about-label" id="About">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/ServiceA.jfif" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label"></p>
+
+            <h2 class="h2 section-title">
+             <!--Ajouter Texte-->
+            </h2>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn >
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Produits pharmaceutiques, consommables et matériels médicaux</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content"> 
+                    Nous fournissons des produits pharmaceutiques, consommables et matériels médicaux pour 
+                    répondre aux besoins médicaux divers.
+                  </p>
+                </div>
+              </li>
+
+         
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Produits agro-alimentaires</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content"> 
+                    Nous offrons des produits agro-alimentaires variés, garantissant fraîcheur et qualité pour une alimentation saine
+                  </p>
+                  
+
+                </div>
+              </li>
+
+
+         
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Intrants agricoles</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Nous fournissons des intrants agricoles de qualité, incluant semences, engrais et pesticides, 
+                    pour optimiser les rendements des cultures
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Biens liés aux mines</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content"> 
+                    Nous disposons des matériels et d’équipements utiles pour une bonne production et satisfaction du client.
+                  </p>
+                  
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Matériaux de construction</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    Nous proposons des matériaux de construction diversifiés, adaptés à tous vos projets. Qualité supérieure et 
+                    durabilité garantissent des constructions solides et fiables, répondant aux normes les plus exigeantes du secteu
+
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5"> Imprimés de bureaux et divers</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    Nous fournissons des imprimés de bureaux variés et divers, conçus pour répondre à tous vos besoins 
+                    administratifs avec efficacité et professionnalisme.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Carburants classiques, bio-carburants, GPL et GNV</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content"> 
+                  Nous offronsl'Essence, Gasoil, huile végétal, biodiesel, Gaz, alcool etc…
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    
+      <!-- 
+        - #CTA
+      -->
+      <section class="cta" aria-label="call to action" id="Contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Contactez-nous
+          </h2>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 Agence Rebi Services. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <!--a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li-->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <!--li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li-->
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Notre Adresse Physique</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Bâtiment Administratif de l’Université de Lubumbashi,  
+            Route de Kasapa, Ville de Lubumbashi,  
+            Haut-Katanga / République Démocratique du Congo
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:rebiservices23@gmail.com" class="footer-link">rebiservices23@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+243814312748" class="footer-link">+ (243) 81 43 12 748 </a>
+        </li>
+
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Accuiel</p>
+        </li>
+        <!--li>
+          <a href="#Services" class="footer-link">Services</a>
+        </li>
+        <li>
+          <a href="#Solutions" class="footer-link">Nos solutions</a>
+        </li>
+        <li>
+          <a href="#About" class="navbar-link">À Propos de Nous</a>
+        </li-->
+        <!--li>
+          <a href="#Projects" class="footer-link">Projets</a>
+        </li-->
+      </ul>
+
+      <div class="footer-list">
+
+        <!--p class="h4 footer-list-title">Our Newsletter</p-->
+        <p class="footer-text">
+          Contactez-nous dès aujourd'hui pour en savoir plus sur la manière dont nous pouvons vous aider
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
